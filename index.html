@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Square Golf Course Road Gurgaon | Luxury Real Estate Consultants</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
+        h1, h2, h3, .serif { font-family: 'Playfair Display', serif; }
+        .gold-gradient { background: linear-gradient(135deg, #d4af37 0%, #aa8222 100%); }
+        .navy-bg { background-color: #0b192c; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Top Contact Bar -->
+    <div class="navy-bg text-white text-xs py-2.5 px-4 border-b border-slate-700">
+        <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+            <div class="flex items-center gap-4">
+                <span><i class="fas fa-map-marker-alt text-amber-400 mr-1"></i> Centrum Plaza, Golf Course Rd, Sector 53, Gurugram 122011</span>
+                <span class="hidden md:inline text-emerald-400 font-semibold"><i class="fas fa-clock mr-1"></i> Open 24 Hours</span>
+            </div>
+            <div class="flex items-center gap-4 font-semibold">
+                <a href="tel:+919818678440" class="hover:text-amber-400"><i class="fas fa-phone-alt mr-1"></i> +91 98186 78440</a>
+                <a href="https://wa.me/919818678440?text=Hello%20Property%20Square,%20I%20am%20interested%20in%20a%20property." target="_blank" class="bg-emerald-600 hover:bg-emerald-500 px-3 py-1 rounded text-white transition">
+                    <i class="fab fa-whatsapp mr-1"></i> WhatsApp Now
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="bg-white/95 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="flex items-center gap-3">
+                <div class="w-10 h-10 gold-gradient rounded-lg flex items-center justify-center text-white font-bold text-xl shadow">PS</div>
+                <div>
+                    <span class="serif text-xl font-bold text-slate-900 block leading-none">Property Square</span>
+                    <span class="text-[11px] uppercase tracking-widest text-amber-600 font-bold">Golf Course Road • Gurgaon</span>
+                </div>
+            </a>
+            <div class="hidden md:flex items-center gap-8 font-medium text-sm text-slate-700">
+                <a href="#properties" class="hover:text-amber-600 transition">Properties</a>
+                <a href="#destinations" class="hover:text-amber-600 transition">Locations</a>
+                <a href="#reviews" class="hover:text-amber-600 transition">5,000+ Reviews</a>
+                <a href="#contact" class="hover:text-amber-600 transition">Contact</a>
+                <a href="tel:+919818678440" class="navy-bg text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-slate-800 transition">Book Site Visit</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative navy-bg text-white py-20 lg:py-28 overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1920&q=80" alt="Luxury Property Gurgaon" class="absolute inset-0 w-full h-full object-cover opacity-25">
+        <div class="relative max-w-7xl mx-auto px-4 text-center">
+            <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 px-4 py-1.5 rounded-full text-amber-300 text-sm font-semibold mb-6">
+                <span>★★★★★</span>
+                <span>4.9/5 Rating • 5,000+ Happy Clients & Verified 5-Star Reviews</span>
+            </div>
+            <h1 class="text-4xl md:text-6xl font-bold max-w-4xl mx-auto leading-tight mb-6">
+                Premium Residential & Commercial Real Estate Across <span class="text-amber-400">Delhi NCR, India & Dubai</span>
+            </h1>
+            <p class="text-slate-300 text-lg max-w-2xl mx-auto mb-10">
+                Buy, Sell, Lease & Invest with Gurgaon's most trusted real estate consultants on Golf Course Road.
+            </p>
+
+            <!-- Search Filter Box -->
+            <div class="bg-white p-4 rounded-2xl shadow-2xl max-w-4xl mx-auto text-slate-800 grid grid-cols-1 md:grid-cols-4 gap-3">
+                <select id="filterCity" class="p-3 rounded-xl border border-slate-200 bg-slate-50 font-medium focus:outline-none">
+                    <option value="all">All Cities (NCR, India & Dubai)</option>
+                    <option value="Gurgaon">Gurgaon (Golf Course Rd)</option>
+                    <option value="Delhi">New Delhi</option>
+                    <option value="Noida">Noida & Greater Noida</option>
+                    <option value="Faridabad">Faridabad</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Dholera">Dholera Smart City</option>
+                    <option value="Dubai">Dubai (UAE)</option>
+                </select>
+                <select id="filterCategory" class="p-3 rounded-xl border border-slate-200 bg-slate-50 font-medium focus:outline-none">
+                    <option value="all">Residential & Commercial</option>
+                    <option value="Residential">Residential (Flats/Villas/Plots)</option>
+                    <option value="Commercial">Commercial (Offices/Retail/SCO)</option>
+                </select>
+                <select id="filterIntent" class="p-3 rounded-xl border border-slate-200 bg-slate-50 font-medium focus:outline-none">
+                    <option value="all">Buy / Sell / Rent</option>
+                    <option value="Buy">Buy / Invest</option>
+                    <option value="Rent">Rent / Lease</option>
+                    <option value="Sell">Sell Property</option>
+                </select>
+                <button onclick="filterProperties()" class="gold-gradient text-white font-bold py-3 px-6 rounded-xl hover:opacity-95 transition shadow-lg">
+                    <i class="fas fa-search mr-2"></i> Search Properties
+                </button>
+            </div>
+
+            <!-- Trust Stats -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mt-14 pt-8 border-t border-white/15">
+                <div>
+                    <div class="text-3xl font-bold text-amber-400">5,000+</div>
+                    <div class="text-xs text-slate-300 uppercase tracking-wider mt-1">5-Star Client Reviews</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-amber-400">8+ Hubs</div>
+                    <div class="text-xs text-slate-300 uppercase tracking-wider mt-1">NCR, India & Dubai</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-amber-400">100%</div>
+                    <div class="text-xs text-slate-300 uppercase tracking-wider mt-1">RERA Verified Deals</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-amber-400">24/7</div>
+                    <div class="text-xs text-slate-300 uppercase tracking-wider mt-1">Consultation Support</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Properties Section -->
+    <section id="properties" class="py-20 max-w-7xl mx-auto px-4">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-4">
+            <div>
+                <span class="text-amber-600 font-bold uppercase tracking-widest text-xs">Curated Portfolio</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mt-1">Residential & Commercial Properties</h2>
+            </div>
+            <div class="flex flex-wrap gap-2">
+                <button onclick="quickFilter('all')" class="px-4 py-2 rounded-full text-sm font-semibold bg-slate-900 text-white">All</button>
+                <button onclick="quickFilter('Residential')" class="px-4 py-2 rounded-full text-sm font-semibold bg-white border border-slate-300 hover:bg-slate-100">Residential</button>
+                <button onclick="quickFilter('Commercial')" class="px-4 py-2 rounded-full text-sm font-semibold bg-white border border-slate-300 hover:bg-slate-100">Commercial</button>
+            </div>
+        </div>
+
+        <div id="propertyGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Property cards populated dynamically via JS -->
+        </div>
+    </section>
+
+    <!-- Prime Cities & Landmarks Showcase -->
+    <section id="destinations" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <span class="text-amber-400 font-bold uppercase tracking-widest text-xs">Our Operational Network</span>
+                <h2 class="text-3xl md:text-4xl font-bold mt-2">Prime Cities & Iconic Investment Hubs</h2>
+                <p class="text-slate-400 mt-3">Direct access to top residential apartments, commercial spaces, and high-growth smart city plots.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Gurgaon -->
+                <div class="group relative rounded-2xl overflow-hidden h-72 shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=800&q=80" alt="Gurgaon Cyber Hub Golf Course Road" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-5 flex flex-col justify-end">
+                        <span class="text-xs font-bold text-amber-400 uppercase">Headquarters</span>
+                        <h3 class="text-xl font-bold">Gurgaon (Delhi NCR)</h3>
+                        <p class="text-xs text-slate-300 mt-1">Golf Course Rd, Cyber City, Dwarka Exp, Sohna Rd</p>
+                    </div>
+                </div>
+                <!-- New Delhi -->
+                <div class="group relative rounded-2xl overflow-hidden h-72 shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=800&q=80" alt="New Delhi India Gate" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-5 flex flex-col justify-end">
+                        <span class="text-xs font-bold text-amber-400 uppercase">Capital Hub</span>
+                        <h3 class="text-xl font-bold">New Delhi</h3>
+                        <p class="text-xs text-slate-300 mt-1">South Delhi Floors, Connaught Place, Aerocity</p>
+                    </div>
+                </div>
+                <!-- Noida -->
+                <div class="group relative rounded-2xl overflow-hidden h-72 shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80" alt="Noida Expressway Commercial" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-5 flex flex-col justify-end">
+                        <span class="text-xs font-bold text-amber-400 uppercase">IT & Expressway</span>
+                        <h3 class="text-xl font-bold">Noida & Greater Noida</h3>
+                        <p class="text-xs text-slate-300 mt-1">Sector 150, Noida Expressway, Jewar Airport Corridor</p>
+                    </div>
+                </div>
+                <!-- Faridabad -->
+                <div class="group relative rounded-2xl overflow-hidden h-72 shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80" alt="Faridabad Greater Faridabad" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-5 flex flex-col justify-end">
+                        <span class="text-xs font-bold text-amber-400 uppercase">Emerging NCR</span>
+                        <h3 class="text-xl font-bold">Faridabad</h3>
+                        <p class="text-xs text-slate-300 mt-1">Surajkund, Sector 15, Neharpar / Greater Faridabad</p>
+                    </div>
+                </div>
+                <!-- Mumbai -->
+                <div class="group relative rounded-2xl overflow-hidden h-72 shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?auto=format&fit=crop&w=800&q=80" alt="Mumbai Marine Drive BKC" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-5 flex flex-col justify-end">
+                        <span class="text-xs font-bold text-amber-400 uppercase">Financial Capital</span>
+                        <h3 class="text-xl font-bold">Mumbai</h3>
+                        <p class="text-xs text-slate-300 mt-1">BKC, Worli Sea Face, Bandra, Lower Parel</p>
+                    </div>
+                </div>
+                <!-- Bangalore -->
+                <div class="group relative rounded-2xl overflow-hidden h-72 shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=800&q=80" alt="Bangalore Tech Park" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-5 flex flex-col justify-end">
+                        <span class="text-xs font-bold text-amber-400 uppercase">Silicon Valley</span>
+                        <h3 class="text-xl font-bold">Bangalore</h3>
+                        <p class="text-xs text-slate-300 mt-1">Whitefield, Indiranagar, Electronic City, Hebbal</p>
+                    </div>
+                </div>
+                <!-- Dholera Smart City -->
+                <div class="group relative rounded-2xl overflow-hidden h-72 shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" alt="Dholera Smart City Gujarat" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-5 flex flex-col justify-end">
+                        <span class="text-xs font-bold text-amber-400 uppercase">India's 1st Greenfield Smart City</span>
+                        <h3 class="text-xl font-bold">Dholera Smart City</h3>
+                        <p class="text-xs text-slate-300 mt-1">SIR Plots, International Airport Zone, Industrial Land</p>
+                    </div>
+                </div>
+                <!-- Dubai -->
+                <div class="group relative rounded-2xl overflow-hidden h-72 shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=80" alt="Dubai Burj Khalifa Marina" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-5 flex flex-col justify-end">
+                        <span class="text-xs font-bold text-amber-400 uppercase">Global Tax-Free ROI</span>
+                        <h3 class="text-xl font-bold">Dubai, UAE</h3>
+                        <p class="text-xs text-slate-300 mt-1">Downtown Dubai, Dubai Marina, Business Bay, Palm Jumeirah</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5,000+ Five-Star Reviews Section -->
+    <section id="reviews" class="py-20 max-w-7xl mx-auto px-4">
+        <div class="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-slate-100">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6 pb-10 border-b border-slate-200">
+                <div>
+                    <div class="flex items-center gap-2 text-amber-500 text-2xl">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <span class="text-slate-900 font-bold text-xl ml-2">4.9 / 5.0</span>
+                    </div>
+                    <h2 class="text-3xl font-bold text-slate-900 mt-2">5,000+ Five-Star Client Reviews</h2>
+                    <p class="text-slate-600 mt-1">Trusted by homeowners, corporate tenants, and NRI investors across Delhi NCR, India & Dubai.</p>
+                </div>
+                <button onclick="document.getElementById('reviewModal').classList.remove('hidden')" class="gold-gradient text-white px-6 py-3 rounded-xl font-bold shadow-md hover:opacity-95 transition">
+                    <i class="fas fa-pen mr-2"></i> Write a 5-Star Review
+                </button>
+            </div>
+
+            <!-- Reviews Grid -->
+            <div id="reviewsContainer" class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+                <!-- Populated by JS -->
+            </div>
+
+            <div class="text-center mt-10">
+                <button onclick="loadMoreReviews()" class="px-6 py-2.5 border-2 border-slate-900 text-slate-900 font-bold rounded-xl hover:bg-slate-900 hover:text-white transition">
+                    Load More Verified Reviews (Showing <span id="reviewCountDisplay">6</span> of 5,000+)
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Office Section -->
+    <section id="contact" class="py-20 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div>
+                <span class="text-amber-600 font-bold uppercase tracking-widest text-xs">Visit Or Call Us</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mt-2">Property Square Golf Course Road Gurgaon</h2>
+                <p class="text-slate-600 mt-4">Whether you want to buy a luxury residence, lease commercial office space, sell your property at top market value, or invest in Dholera & Dubai—our advisors are available 24/7.</p>
+
+                <div class="space-y-4 mt-8">
+                    <div class="flex items-start gap-4 bg-white p-4 rounded-xl shadow-sm">
+                        <div class="w-10 h-10 rounded-lg gold-gradient text-white flex items-center justify-center shrink-0"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">Office Address</h4>
+                            <p class="text-sm text-slate-600">Centrum Plaza, Golf Course Rd, Near IILM Institute, Sector 53, Gurugram, Haryana 122011</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4 bg-white p-4 rounded-xl shadow-sm">
+                        <div class="w-10 h-10 rounded-lg gold-gradient text-white flex items-center justify-center shrink-0"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+            
